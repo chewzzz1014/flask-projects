@@ -48,5 +48,8 @@
 ![image](https://user-images.githubusercontent.com/92832451/191214068-d4c75721-43ea-481a-a369-a1a810a5c104.png)
 
 
-4. 
+4. Type Conversion (data passed to URL is always a string, Conversion from string to other)
+
+![image](https://user-images.githubusercontent.com/92832451/191216260-3f08a0ac-62d7-416e-b652-1769871b6caa.png)
+
 
