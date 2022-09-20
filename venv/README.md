@@ -1,8 +1,9 @@
 ## Overview
+- Serve as practising project. Will add more contents as I progress
 - This directory is a virtual environment created using venv, with command `python -m venv venv`.
 - Inside hello.py is my first Flask application that prints Hellow World on browser using the given address.
 
-## Steps
+## Steps: Hello World
 1. Create virtual environment, with the name `venv` and activate it.
 
 2. Create the app in hello.py
