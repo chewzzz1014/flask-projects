@@ -79,3 +79,8 @@ How it looks like when I just opened the URL.
 When I'm in /data/get_error/, make response 400.
 
 ![image](https://user-images.githubusercontent.com/92832451/191461381-78330d66-4a03-414e-afe9-baf822b2495f.png)
+
+
+# Make json response (in make_response_json.py)
+
+![image](https://user-images.githubusercontent.com/92832451/191463630-99abd04b-d514-4ab3-bb3a-493fdd7382a0.png)
