@@ -79,6 +79,9 @@ After click on button `Push Me!`, application sent POST request
 
 ![image](https://user-images.githubusercontent.com/92832451/191469102-bfe575b5-2581-4df1-a923-79f8dd4ec1fa.png)
 
+Records:
+![image](https://user-images.githubusercontent.com/92832451/191469366-6ebc5238-d30a-4b4f-85cb-35f324840e91.png)
+
 
 # Make Response (in make_responses.py)
 
