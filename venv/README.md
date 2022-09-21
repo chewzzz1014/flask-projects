@@ -98,3 +98,14 @@ When I'm in /data/get_error/, make response 400.
 
 ![image](https://user-images.githubusercontent.com/92832451/191463630-99abd04b-d514-4ab3-bb3a-493fdd7382a0.png)
 
+
+## Render Template (in app.py)
+
+In html template:
+
+![image](https://user-images.githubusercontent.com/92832451/191477669-8ffc1ec6-c3a5-44cf-bfb1-1f8b823a6a38.png)
+
+
+Output:
+
+![image](https://user-images.githubusercontent.com/92832451/191477573-18e1c653-d244-454c-bb0f-d9e3992b66e5.png)
