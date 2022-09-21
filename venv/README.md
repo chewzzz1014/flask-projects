@@ -65,5 +65,7 @@ After click on button `auth`, application sent POST request
 
 ![image](https://user-images.githubusercontent.com/92832451/191435141-e4bb960c-9ad8-4bfa-b335-1c5940e6fbe5.png)
 
+Records:
 
+![image](https://user-images.githubusercontent.com/92832451/191436088-0045ca99-a7e0-4947-9085-5f89b725a6cf.png)
 
