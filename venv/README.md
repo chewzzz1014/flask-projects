@@ -69,6 +69,16 @@ Records:
 
 ![image](https://user-images.githubusercontent.com/92832451/191436088-0045ca99-a7e0-4947-9085-5f89b725a6cf.png)
 
+# Make POST Request when User Click Button (in access_from_browser.py)
+
+How it looks like when I just opened the URL. (GET request by default)
+
+![image](https://user-images.githubusercontent.com/92832451/191468908-c560b9ee-87ab-46d7-b467-a31d3f50ef56.png)
+
+After click on button `Push Me!`, application sent POST request
+
+![image](https://user-images.githubusercontent.com/92832451/191469102-bfe575b5-2581-4df1-a923-79f8dd4ec1fa.png)
+
 
 # Make Response (in make_responses.py)
 
@@ -84,3 +94,4 @@ When I'm in /data/get_error/, make response 400.
 # Make json response (in make_response_json.py)
 
 ![image](https://user-images.githubusercontent.com/92832451/191463630-99abd04b-d514-4ab3-bb3a-493fdd7382a0.png)
+
