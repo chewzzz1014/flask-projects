@@ -1,8 +1,8 @@
 ## Overview
 - Serve as practising project. Will add more contents as I progress
 - This directory is a virtual environment created using venv, with command `python -m venv venv`.
-- Inside hello.py is my first Flask application that prints Hellow World on browser using the given address.
-- Inside make_requests.py, I made GET request (form) and POST request using  `request` in Flask library
+- Inside hello.py is my first Flask application that prints Hello World on browser using the given URL.
+- Inside make_requests.py, I made GET request (form) and POST request using  `request` from Flask library
 
 ## Steps: Hello World
 1. Create virtual environment, with the name `venv` and activate it.
@@ -18,7 +18,7 @@
 ![app](https://user-images.githubusercontent.com/92832451/191206396-32b5ffd9-bc08-4aa3-b868-09b421afd4bf.png)
 
 
-## Diffrent Wasy to Specify Routes
+## Different Ways to Specify Routes
 1. Main Page
 
 ![image](https://user-images.githubusercontent.com/92832451/191213313-a730fd63-57bb-4818-8136-9650daa6e0f2.png)
