@@ -57,7 +57,7 @@
 
 ## Make Requests (in make_requests.py)
 
-How it looks like when I just opened the address link. (GET request by default)
+How it looks like when I just opened the URL. (GET request by default)
 
 ![image](https://user-images.githubusercontent.com/92832451/191435071-71da964b-65bd-4711-9e6e-382c2ba7a0c6.png)
 
@@ -69,3 +69,13 @@ Records:
 
 ![image](https://user-images.githubusercontent.com/92832451/191436088-0045ca99-a7e0-4947-9085-5f89b725a6cf.png)
 
+
+# Make Response (in make_responses.py)
+
+How it looks like when I just opened the URL.
+
+![image](https://user-images.githubusercontent.com/92832451/191461209-41ba5643-1000-4bf5-8403-9a294f85f25d.png)
+
+When I'm in /data/get_error/, make response 400.
+
+![image](https://user-images.githubusercontent.com/92832451/191461381-78330d66-4a03-414e-afe9-baf822b2495f.png)
