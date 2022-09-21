@@ -2,6 +2,7 @@
 - Serve as practising project. Will add more contents as I progress
 - This directory is a virtual environment created using venv, with command `python -m venv venv`.
 - Inside hello.py is my first Flask application that prints Hellow World on browser using the given address.
+- Inside make_requests.py, I made GET request (form) and POST request using  `request` in Flask library
 
 ## Steps: Hello World
 1. Create virtual environment, with the name `venv` and activate it.
@@ -51,5 +52,18 @@
 4. Type Conversion (data passed to URL is always a string, Conversion from string to other)
 
 ![image](https://user-images.githubusercontent.com/92832451/191216260-3f08a0ac-62d7-416e-b652-1769871b6caa.png)
+
+
+
+## Make Requests (in make_requests.py)
+
+How it looks like when I just opened the address link. (GET request by default)
+
+![image](https://user-images.githubusercontent.com/92832451/191435071-71da964b-65bd-4711-9e6e-382c2ba7a0c6.png)
+
+After click on button `auth`, application sent POST request
+
+![image](https://user-images.githubusercontent.com/92832451/191435141-e4bb960c-9ad8-4bfa-b335-1c5940e6fbe5.png)
+
 
 
