@@ -12,8 +12,12 @@ def main_view():
 
 @app.route('/not_ready')
 def redirect_view():
-    flash('This page is not ready yet! Return later!')
-    return get_flashed_messages()[0]
+    flash("It's cold in the graveyard", 'info')
+    flash("You don't know whos is behind you.", 'ahtung')
+    flash('There is no pain', 'error')
+    flash('What are you receiving', 'interest')
+
+    return get_flashed_messages()[2]
 
 
 app.run()
