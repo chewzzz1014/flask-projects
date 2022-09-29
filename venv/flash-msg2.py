@@ -1,6 +1,7 @@
 from flask import Flask, flash, redirect, get_flashed_messages, render_template
 
 app = Flask('main')
+app.config['SECRET_KEY'] = 'So-Seckrekt'
 
 
 @app.route('/')

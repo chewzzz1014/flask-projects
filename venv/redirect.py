@@ -1,6 +1,7 @@
 from flask import Flask, redirect
 
 app = Flask('main')
+app.config['SECRET_KEY'] = 'So-Seckrekt'
 
 
 @app.route('/')
