@@ -17,7 +17,7 @@ def redirect_view():
     flash('There is no pain', 'error')
     flash('What are you receiving', 'interest')
 
-    return get_flashed_messages()[2]
+    return (category_filter=['error'])
 
 
 app.run()
