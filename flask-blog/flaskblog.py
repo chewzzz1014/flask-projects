@@ -1,16 +1,33 @@
-from flask import Flask
+from flask import Flask, render_template
 
 # __name__ is directory name
 app = Flask(__name__)
 
+posts = [
+    {
+        "author": "chewzzz",
+        "title": "First Day in School!",
+        "content": "Hoorayyyyy",
+        "date_post": "October 12 2022"
+    },
+    {
+        "author": "screwdriver",
+        "title": "Blog Post 1",
+        "content": "First post content",
+        "date_post": "October 14 2022"
+    }
+]
+
+
 @app.route("/")
 @app.route("/home")
 def home():
-    return '<h1>Hello World!</h1>'
+    return render_template("home.html", posts=posts)
+
 
 @app.route("/about")
 def about():
-    return '<h1>About!</h1>'
+    return render_template("about.html", title="About")
 
 
 if __name__ == "__main__":
