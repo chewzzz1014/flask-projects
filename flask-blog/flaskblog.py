@@ -38,7 +38,7 @@ class Post(db.Model):
     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     contents = db.Column(db.Text, nullable=False)
     # user_id is foreign key
-    user_id = db.Column(db.Integer, db.ForeignKey("user_id"), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
@@ -92,6 +92,22 @@ def login():
 
     return render_template("login.html", title='Login', form=form)
 
+
+with app.app_context():
+
+    print("db.create_all() ...")
+    db.create_all()
+
+    from flaskblog import User, Post
+    user_1 = User(username="chewzzz", email="C@edu.com", password="password")
+    db.session.add(user_1)
+    user_2 = User(username="hotChilli", email="xxx@yy.com", password="password2")
+    db.session.add(user_2)
+
+    db.session.commit()
+
+    User.query.all()
+
 if __name__ == "__main__":
-    # run in debug mode (we can see changes after refresh w/o restart flask server)
-    app.run(debug=True)
+     # run in debug mode (we can see changes after refresh w/o restart flask server)
+     app.run(debug=True)
